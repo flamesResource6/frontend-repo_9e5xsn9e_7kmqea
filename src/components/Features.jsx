@@ -39,13 +39,13 @@ export default function Features() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
           <h2 className="text-3xl md:text-4xl font-semibold text-white">Everything you need to run tours</h2>
-          <p className="mt-3 text-white/70">An integrated suite built for growth, reliability, and delightful traveler experiences.</p>
+          <p className="mt-3 text-white/70">A focused toolkit designed for clarity, speed, and reliability.</p>
         </div>
 
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((f) => (
             <div key={f.title} className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 hover:bg-white/[0.06] transition-colors">
-              <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center shadow-md shadow-orange-500/30">
+              <div className="h-10 w-10 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center shadow-sm">
                 <f.icon className="h-5 w-5 text-white" />
               </div>
               <h3 className="mt-4 text-white font-medium">{f.title}</h3>

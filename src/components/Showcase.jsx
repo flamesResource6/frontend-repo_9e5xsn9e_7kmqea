@@ -16,7 +16,7 @@ export default function Showcase() {
                 'Automated emails & SMS',
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2 text-white/80">
-                  <div className="h-1.5 w-1.5 rounded-full bg-amber-400" />
+                  <div className="h-1.5 w-1.5 rounded-full bg-white/40" />
                   {item}
                 </div>
               ))}

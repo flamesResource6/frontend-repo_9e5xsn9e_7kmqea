@@ -1,4 +1,4 @@
-import { Menu, Ticket, Plane, Users, Calendar } from "lucide-react";
+import { Menu, Ticket, Plane, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className="relative z-20">
       <div className="mx-auto max-w-7xl px-6 py-5 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 shadow-lg shadow-orange-500/30 flex items-center justify-center">
+          <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-white/15 to-white/5 border border-white/10 backdrop-blur-sm flex items-center justify-center">
             <Plane className="h-5 w-5 text-white" />
           </div>
           <div>
@@ -30,10 +30,10 @@ export default function Navbar() {
           <motion.button
             whileHover={{ y: -1 }}
             whileTap={{ y: 0 }}
-            className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 px-4 py-2 text-sm font-medium text-white shadow-[0_10px_25px_-10px_rgba(251,146,60,0.7)]"
+            className="inline-flex items-center gap-2 rounded-xl bg-white text-black px-4 py-2 text-sm font-medium shadow-[0_10px_25px_-10px_rgba(255,255,255,0.35)]"
           >
             <Ticket className="h-4 w-4" />
-            Get started
+            Request demo
           </motion.button>
           <button className="md:hidden inline-flex items-center justify-center h-10 w-10 rounded-xl border border-white/10 bg-white/5 text-white">
             <Menu className="h-5 w-5" />
